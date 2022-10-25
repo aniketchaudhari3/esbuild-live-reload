@@ -2,4 +2,4 @@
 Testing live reload with esbuild + react
 
 ### Dependencies
-- https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer in VSCode
+- [Live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VSCode
