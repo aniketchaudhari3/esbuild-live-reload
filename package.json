@@ -1,0 +1,19 @@
+{
+  "name": "esbuild",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/App.jsx --bundle --minify --sourcemap --outfile=public/bundle.js",
+    "watch": "esbuild src/App.jsx --outfile=public/bundle.js --bundle --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "esbuild": "^0.15.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
